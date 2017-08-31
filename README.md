@@ -9,7 +9,7 @@ Kubernetes defines an API for NetworkPolicies. More info over here:
 * http://kubernetes.io/docs/user-guide/networkpolicies/
 * http://kubernetes.io/docs/api-reference/extensions/v1beta1/definitions/#_v1beta1_networkpolicy
 
-Kubernetes does not enforce natively those NetworkPolicies and requires another library/solution to perform the actual enforcement.
+Kubernetes does not enforce natively those NetworkPolicies and requires another library/solution to perform the actual enforcement.sdfsdfsdf
 
 The Trireme-kubernetes solution does not rely on any complex control-plane or setup. Any other networking backend can be used.
 Enforcement is performed directly on every node without any shared state propagation (more info at  [Trireme ](https://github.com/aporeto-inc/trireme))
